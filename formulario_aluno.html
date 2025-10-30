@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Alunos</title>
+
+    <link rel="stylesheet" href="./estilo_cadastro/estilo_cadastro.css">
+</head>
+<body>
+    <section class="container">
+        <div class="img"></div>
+        <div class="tela_cadastro">
+            <h1>Cadastre-se</h1>
+            <p>Já tem uma conta? <a href="#">Log in</a></p>
+
+            <form action="" method="">
+                <input type="text" name="nome_completo" id="nome_completo" placeholder="Digite seu nome completo" required >
+                <input type="number" name="idade" id="idade" placeholder="Digite sua idade" required >
+                <input type="email" name="email" id="email" placeholder="Digite seu email educacional" required >
+                <input type="tel" name="telefone" id="telfone" placeholder="Digite seu telefone" required >
+                <input type="password" name="senha" id="senha" placeholder="Escolha uma senha" required >
+
+                <select name="estado" id="estado" required >
+
+                    <option value="" disabled selected>Selecione o estado da sua escola:</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="mg">Minas Gerais</option>
+                    <option value="df">Brasilia</option>
+                </select>
+
+                <select name="ano_escolar" id="ano_escolar" required >
+
+                    <option value="" disabled selected>Selecione seu ano escolar:</option>
+                    <option value="6">Sexto ano</option>
+                    <option value="7">Setimo ano</option>
+                    <option value="8">Oitavo ano</option>
+                    <option value="9">Nono ano</option>
+
+                    <option value="1">Primeiro ano do ensino medio</option>
+                    <option value="2">Segundo ano do ensino medio</option>
+                    <option value="3">Terceiro ano do ensino medio</option>
+
+                    <input type="radio" name="sexo" id="sexo" value="Feminino" required >
+                <label for="sexo">Feminino</label>
+
+                <input type="radio" name="sexo" id="sexo" value="Masculino" required >
+                <label for="sexo">Masculino</label>
+
+                <input type="radio" name="sexo" id="sexo" value="Outro" required >
+                <label for="sexo">Outro</label>
+
+                </select>
+
+            </form>
+        </div>
+    </section>
+</body>
+</html>

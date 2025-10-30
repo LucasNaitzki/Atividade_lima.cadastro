@@ -6,19 +6,25 @@
     <title>Cadastro Alunos</title>
 
     <link rel="stylesheet" href="./estilo_cadastro/estilo_cadastro.css">
+
+    <link rel="shortcut icon" href="./img/logo_escola.jpg" type= "image/x-icon">
+
 </head>
 <body>
     <section class="container">
-        <div class="img"></div>
+        <div class="img">
+            <h1 class="nome_escola">Sweet Amoris</h1>
+        </div>
         <div class="tela_cadastro">
-            <h1>Cadastre-se</h1>
+            <h1>High School</h1>
+            <h3>Cadastro escolar</h3>
             <p>Já tem uma conta? <a href="#">Log in</a></p>
 
             <form action="" method="">
                 <input type="text" name="nome_completo" id="nome_completo" placeholder="Digite seu nome completo" required >
                 <input type="number" name="idade" id="idade" placeholder="Digite sua idade" required >
                 <input type="email" name="email" id="email" placeholder="Digite seu email educacional" required >
-                <input type="tel" name="telefone" id="telfone" placeholder="Digite seu telefone" required >
+                <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" required >
                 <input type="password" name="senha" id="senha" placeholder="Escolha uma senha" required >
 
                 <select name="estado" id="estado" required >
@@ -33,11 +39,7 @@
                 <select name="ano_escolar" id="ano_escolar" required >
 
                     <option value="" disabled selected>Selecione seu ano escolar:</option>
-                    <option value="6">Sexto ano</option>
-                    <option value="7">Setimo ano</option>
-                    <option value="8">Oitavo ano</option>
-                    <option value="9">Nono ano</option>
-
+                
                     <option value="1">Primeiro ano do ensino medio</option>
                     <option value="2">Segundo ano do ensino medio</option>
                     <option value="3">Terceiro ano do ensino medio</option>
@@ -50,8 +52,9 @@
 
                 <input type="radio" name="sexo" id="sexo" value="Outro" required >
                 <label for="sexo">Outro</label>
-
                 </select>
+
+                <button class="botao">Concluir Cadastro</button>
 
             </form>
         </div>

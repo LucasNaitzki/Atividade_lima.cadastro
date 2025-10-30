@@ -44,10 +44,12 @@ body{
     background-position: center;
     background-size: cover;
 
-    background-color:#FFFF00;
-
+    justify-content: center;
+    background-color:#ffffff;
     border-radius: 10px; 
+    display:flex;
 }
+
 
  .tela_cadastro{
     width: 70%;
@@ -58,7 +60,7 @@ body{
     align-items: center;
 }
 
-.tela_cadastro h1{
+.tela_cadastro h1, h3{
     color: #ca2664;
     align-items: center;
 }
@@ -108,6 +110,24 @@ form #senha{
 form #estado,
 form #ano_escolar{
     width: calc(50% - 10px);
+    height: 30px;
     color: #500422;
     background-color: #ca2664;
+}
+
+.botao{
+    width: 100%;
+    color: #ffffff;
+    background-image: url(../img/bt3.jpg);
+    background-position: center;
+    box-shadow: 0 0 20px #ec0867;
+
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nome_escola{
+    background-color: #ffffff;
+    justify-content:  center;
 }
